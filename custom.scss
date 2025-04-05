@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+// Importa las fuentes desde Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap'); // Fuente digital similar a relojes
+
+// Definición de variables de colores basados en la paleta de la Universidad Jorge Tadeo Lozano
+$color-azul-utadeo: #00558F; // Azul Pantone 2955C
+$color-azul-claro: #A0CFEB;  // Azul claro Pantone 291C
+$color-blanco: #FFFFFF;
+
+// Variables de tipografía
+$fuente-texto: 'Roboto', sans-serif;
+$fuente-titulos: 'Orbitron', sans-serif;
+
+/*-- scss:rules --*/
+
+// Estilos globales
+body {
+  font-family: $fuente-texto;
+  background-color: $color-blanco;
+  color: $color-azul-utadeo;
+}
+
+// Estilos para los títulos
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fuente-titulos;
+  color: $color-azul-utadeo;
+}
+
+// Estilos para enlaces
+a {
+  color: $color-azul-utadeo;
+  &:hover {
+    color: $color-azul-claro;
+  }
+}
+
+// Estilos específicos para las diapositivas
+.reveal {
+  .slides {
+    section {
+      // Personaliza según sea necesario
+    }
+  }
+}
