@@ -1,0 +1,54 @@
+---
+title: "Mi presentacion"
+format: 
+    revealjs:
+        logo: "logo.jpg"
+        chalkboard: true
+        slide-number: true
+        incremental: true
+        scrollable: true
+        theme: custom.scss
+        footer: tematica
+        background-transition: slide   
+---
+
+## 🔥 TITULO 1 🔥
+
+- item 1
+- item 2
+
+    > alerta
+- item 1
+- item 2
+- item 1
+- item 2
+- item 1
+- item 2
+---
+
+## 🎯 TITULO 2
+
+:::: {.columns}
+::: {.column width="40%"}
+- Columna 1
+- Columna 1
+:::
+::: {.column width="60%"}
+- Right column
+:::
+
+::::
+
+---
+
+## Página de Utadeo embebida
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTqz2t29NM-CItR20xp9OdoJesksmCxudiKNVAHY10Zdp55pfg5cSmBA9RiCM-kiFSAUeUuQdjHSfCi/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+---
+
+##
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s my conversation with <a href="https://twitter.com/ezraklein?ref_src=twsrc%5Etfw">@ezraklein</a> and <a href="https://twitter.com/DKThomp?ref_src=twsrc%5Etfw">@dkthomp</a> about their vision for the future of the Democratic party and left-wing politics in America, focusing on how to build more with less regulation, while maintaining progressive ideals.<br><br>We discuss DOGE, Elon, Trump, AOC, Sam… <a href="https://t.co/JGCdBxojSW">pic.twitter.com/JGCdBxojSW</a></p>&mdash; Lex Fridman (@lexfridman) <a href="https://twitter.com/lexfridman/status/1904666518367223870?ref_src=twsrc%5Etfw">March 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+---
